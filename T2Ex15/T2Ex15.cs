@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            // Crea una funció que rebi un número i retorni el seu quadrat. Demostra el seu funcionament des del Main.
             const string TxtNumberPrompt = "Introdueix un número per calcular el seu quadrat: ";
             const string TxtResult = "El quadrat de {0} és: {1}";
 
