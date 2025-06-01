@@ -16,7 +16,7 @@ namespace T2Ex10
             Console.WriteLine(TxtInputPrompt);
             text = Console.ReadLine();
 
-            if (IsValidPassword(text))
+            if (IsValidText(text))
                 Console.WriteLine(TxtValidText);
             else
                 Console.WriteLine(TxtInvalidText);
@@ -25,7 +25,7 @@ namespace T2Ex10
             Console.ReadKey();
         }
 
-        private static bool IsValidPassword(string? text)
+        private static bool IsValidText(string? text)
         {
             const string TextPattern = @"^\d{8}[a-zA-Z]$";
             return Regex.IsMatch(text, TextPattern);
