@@ -24,6 +24,7 @@
                     Console.WriteLine(TxtInvalidInput);
                 }
             }
+            Console.WriteLine($"Has introduït el número vàlid: {number}");
 
             Console.WriteLine(TxtPressToExit);
             Console.ReadKey();
