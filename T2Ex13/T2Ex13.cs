@@ -1,6 +1,6 @@
 ﻿namespace T2Ex13
 {
-    internal class Program
+    internal class T2Ex13
     {
         static void Main(string[] args)
         {
@@ -15,11 +15,13 @@
             {
                 Console.Write(TxtNumberInput);
             }
+
             Console.WriteLine($"{TxtTable}{userNumber}:");
             for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine($"{userNumber} x {i} = {userNumber * i}");
             }
+
             Console.WriteLine(TxtPressToExit);
             Console.ReadKey();
         }
