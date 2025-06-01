@@ -1,6 +1,6 @@
-﻿namespace Ex10
+﻿namespace T1Ex10
 {
-    internal class Program
+    internal class Ex10
     {
         static void Main(string[] args)
         {
