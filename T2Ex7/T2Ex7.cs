@@ -4,16 +4,10 @@
     {
         static void Main(string[] args)
         {
-            // 7. Implementa en C# programa que mostri un menú amb opcions:
-            //  a) Calcular àrea d’un rectangle
-            //  b) Mostrar si un any és de traspàs
-            //  c) Sortir del programa
-            // S’han d’implementar els mètodes estàtics i invocar-los des del programa principal
-
             const string TxtMenu = "Menú:\n" +
-                                   "a) Calcular àrea d’un rectangle\n" +
-                                   "b) Mostrar si un any és de traspàs\n" +
-                                   "c) Sortir del programa\n" +
+                                   "1- Calcular àrea d’un rectangle\n" +
+                                   "2- Mostrar si un any és de traspàs\n" +
+                                   "3- Sortir del programa\n" +
                                    "Introdueix la teva opció: ";
 
             const string TxtRectangleWidth = "Introdueix l'amplada del rectangle: ";
