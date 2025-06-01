@@ -1,11 +1,12 @@
 ﻿namespace T1Ex8
 {
-    internal class Ex8
+    internal class T1Ex8
     {
         static void Main(string[] args)
         {
             const string TxtAmount = "Introdueix la quantitat de nombres";
             const string TxtNumber = "Introdueix un nombre: ";
+            const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 
             int amount = 0;
             int sum = 0;
@@ -25,6 +26,7 @@
             avg = sum / amount;
             Console.WriteLine("La mitjana dels {0} nombres és: {1}", amount, avg);
 
+            Console.WriteLine(TxtPressToExit);
             Console.ReadKey();
         }
     }
