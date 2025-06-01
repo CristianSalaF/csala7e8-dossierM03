@@ -8,7 +8,9 @@ namespace T2Ex9
         {
             const string TxtPasswordPrompt = "Introdueix una contrasenya: ";
             const string TxtValidPassword = "La contrasenya és vàlida";
-            const string TxtInvalidPassword = "La contrasenya no és vàlida. Assegura't que té entre 8 i 12 caràcters, inclou almenys una majúscula, una minúscula i un número, i no conté espais.";
+            const string TxtInvalidPassword = "La contrasenya no és vàlida. " +
+                                              "Assegura't que té entre 8 i 12 caràcters, inclou almenys una majúscula, " +
+                                              "una minúscula i un número, i no conté espais.";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 
             string password = "";
