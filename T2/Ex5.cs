@@ -1,8 +1,8 @@
-﻿namespace T2Ex5
+﻿namespace T2
 {
-    internal class T2Ex5
+    internal class Ex5
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtIntro = "Introdueix un número: ";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";

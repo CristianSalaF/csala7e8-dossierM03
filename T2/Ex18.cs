@@ -1,8 +1,8 @@
-﻿namespace T2Ex18
+﻿namespace T2
 {
-    internal class T2Ex18
+    internal class Ex18
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtWordPrompt = "Introdueix una paraula: ";
             const string TxtWordsInReverse = "Les paraules en ordre invers són: ";

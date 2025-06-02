@@ -1,8 +1,8 @@
-﻿namespace T2Ex6
+﻿namespace T2
 {
-    internal class T2Ex6
+    internal class Ex6
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtIntro = "Introdueix 10 números enters: ";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";

@@ -1,6 +1,6 @@
-﻿namespace T2Ex21
+﻿namespace T2
 {
-    internal class T2Ex21
+    internal class Ex21
     {
         const string TxtCelsiusPrompt = "Introdueix una temperatura en graus Celsius: ";
         const string TxtConversionPrompt = "Vols convertir a Fahrenheit (F) o Kelvin (K)? ";
@@ -9,7 +9,7 @@
         const string TxtKelvinResult = "La temperatura en Kelvin és: {0} K";
         const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             float celsius = 0;
             celsius = GetUserInputCelsius();

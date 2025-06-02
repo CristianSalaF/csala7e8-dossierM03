@@ -1,8 +1,8 @@
-﻿namespace T2Ex16
+﻿namespace T2
 {
-    internal class T2Ex16
+    internal class Ex16
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberPrompt = "Introdueix un número entre 1 i 100: ";
             const string TxtInvalidInput = "Entrada no vàlida. Si us plau, introdueix un número entre 1 i 100.";

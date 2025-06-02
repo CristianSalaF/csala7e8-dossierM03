@@ -1,8 +1,8 @@
-﻿namespace T2Ex13
+﻿namespace T2
 {
-    internal class T2Ex13
+    internal class Ex13
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberInput = "Introdueix un número per veure la seva taula de multiplicar: ";
             const string TxtTable = "Taula de multiplicar del ";

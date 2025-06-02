@@ -1,8 +1,8 @@
-﻿namespace T2Ex19
+﻿namespace T2
 {
-    internal class T2Ex19
+    internal class Ex19
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberPrompt = "Introdueix un nombre enter positiu: ";
             const string TxtSumOfDigits = "La suma dels dígits del nombre {0} és: {1}";

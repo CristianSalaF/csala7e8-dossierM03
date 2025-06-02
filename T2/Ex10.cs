@@ -1,10 +1,10 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace T2Ex10
+namespace T2
 {
-    internal class T2Ex10
+    internal class Ex10
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtInputPrompt = "Introdueix un text, ha de tindre 8 nombres seguits d'una lletra: ";
             const string TxtValidText = "El text és vàlid";

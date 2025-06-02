@@ -1,8 +1,8 @@
-﻿namespace T2Ex8
+﻿namespace T2
 {
-    internal class T2Ex8
+    internal class Ex8
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumber1 = "Introdueix el primer nombre: ";
             const string TxtNumber2 = "Introdueix el segon nombre: ";

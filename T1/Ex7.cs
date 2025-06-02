@@ -1,8 +1,8 @@
-﻿namespace T1Ex7
+﻿namespace T1
 {
-    internal class T1Ex7
+    internal class Ex7
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberPrompt = "Introdueix un nombre enter positiu: ";
             const string TxtDivisors = "Els divisors parells de ";

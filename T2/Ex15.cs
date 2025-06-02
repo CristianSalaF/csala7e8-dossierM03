@@ -1,8 +1,8 @@
-﻿namespace T2Ex15
+﻿namespace T2
 {
-    internal class T2Ex15
+    internal class Ex15
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberPrompt = "Introdueix un número per calcular el seu quadrat: ";
             const string TxtResult = "El quadrat de {0} és: {1}";

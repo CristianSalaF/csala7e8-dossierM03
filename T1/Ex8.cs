@@ -1,8 +1,8 @@
-﻿namespace T1Ex8
+﻿namespace T1
 {
-    internal class T1Ex8
+    internal class Ex8
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtAmount = "Introdueix la quantitat de nombres";
             const string TxtNumber = "Introdueix un nombre: ";

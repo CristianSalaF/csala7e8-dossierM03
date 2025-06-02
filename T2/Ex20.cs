@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel;
 
-namespace T2Ex20
+namespace T2
 {
-    internal class T2Ex20
+    internal class Ex20
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberPrompt = "Introdueix el número {0}: ";
             const string TxtMaxNumber = "El número més gran és: {0}";

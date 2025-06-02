@@ -1,8 +1,8 @@
-﻿namespace T2Ex22
+﻿namespace T2
 {
-    internal class T2Ex22
+    internal class Ex22
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtGuessPrompt = "Introdueix un número entre 1 i 50: ";
             const string TxtInvalidInput = "Entrada no vàlida. Si us plau, introdueix un número entre 1 i 50.";

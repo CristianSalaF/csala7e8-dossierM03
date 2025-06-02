@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace T2Ex7
+namespace T2
 {
-    class UtilsEx7
+    internal class UtilsEx7
     {
         public static int CalculateRectangleArea(int width, int height)
         {

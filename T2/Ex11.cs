@@ -1,11 +1,11 @@
 ﻿using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace T2Ex11
+namespace T2
 {
-    internal class T2Ex11
+    internal class Ex11
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtDateInput = "Introdueix una data (dd/MM/yyyy): ";
             const string TxtInvalidDateFormat = "Format incorrecte. Usa dd/MM/yyyy.";

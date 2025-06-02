@@ -1,8 +1,8 @@
-﻿namespace T2Ex7
+﻿namespace T2
 {
-    internal class T2Ex7
+    internal class Ex7
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtMenu = "Menú:\n" +
                                    "1- Calcular àrea d’un rectangle\n" +

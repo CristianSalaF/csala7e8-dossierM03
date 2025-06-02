@@ -1,14 +1,9 @@
-﻿namespace T1Ex9
+﻿namespace T1
 {
-    internal class T1Ex9
+    internal class Ex9
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
-            /* 4. Si x=4, y=7, p=true i q=false, avalua les expressions següents:
-             * a) y > x && p == q
-             * c) !(x * y < 30) && p
-             */
-
             const string TxConditionA = "y > x && p == q";
             const string TxConditionC = "!(x * y < 30) && p";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";

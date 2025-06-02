@@ -1,10 +1,10 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace T2Ex9
+namespace T2
 {
-    internal class T2Ex9
+    internal class Ex9
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtPasswordPrompt = "Introdueix una contrasenya: ";
             const string TxtValidPassword = "La contrasenya és vàlida";

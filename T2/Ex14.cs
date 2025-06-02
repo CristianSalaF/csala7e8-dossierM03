@@ -1,8 +1,8 @@
-﻿namespace T2Ex14
+﻿namespace T2
 {
-    internal class T2Ex14
+    internal class Ex14
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtIntro = "Introdueix 5 números: ";
             const string TxtCurrentNum = "Numero {0}";

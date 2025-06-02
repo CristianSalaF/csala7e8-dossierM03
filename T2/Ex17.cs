@@ -1,6 +1,6 @@
-﻿namespace T2Ex17
+﻿namespace T2
 {
-    internal class T2Ex17
+    internal class Ex17
     {
         const string TxtNumberPrompt = "Introdueix un nombre enter positiu: ";
         const string TxtSearchPrompt = "Introdueix un nombre a buscar: ";
@@ -9,7 +9,7 @@
         const string TxtInvalidError = "Entrada no vàlida. Si us plau, introdueix un enter positiu.";
         const int ArraySize = 10;
 
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             int[] numbers = new int[ArraySize];
             

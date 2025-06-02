@@ -1,8 +1,8 @@
-﻿namespace T2Ex12
+﻿namespace T2
 {
-    internal class T2Ex12
+    internal class Ex12
     {
-        static void Main(string[] args)
+        internal static void Exercise(string[] args)
         {
             const string TxtNumberInput = "Introdueix un número: ";
             const string TxtPositive = "El número és positiu.";
