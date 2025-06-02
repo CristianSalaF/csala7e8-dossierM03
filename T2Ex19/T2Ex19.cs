@@ -7,6 +7,7 @@
             const string TxtNumberPrompt = "Introdueix un nombre enter positiu: ";
             const string TxtSumOfDigits = "La suma dels dígits del nombre {0} és: {1}";
             const string TxtInvalidError = "Entrada no vàlida. Si us plau, introdueix un enter positiu.";
+            const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
             
             int number = 0;
             bool isValidNumber = false;
@@ -33,7 +34,7 @@
             }
             Console.WriteLine(TxtSumOfDigits, number, sumOfDigits);
 
-            Console.WriteLine("Prem qualsevol tecla per sortir...");
+            Console.WriteLine(TxtPressToExit);
             Console.ReadKey();
         }
     }

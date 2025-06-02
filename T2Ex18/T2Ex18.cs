@@ -6,6 +6,7 @@
         {
             const string TxtWordPrompt = "Introdueix una paraula: ";
             const string TxtWordsInReverse = "Les paraules en ordre invers són: ";
+            const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
             const int ArraySize = 5;
 
             string[] words = new string[ArraySize];
@@ -21,7 +22,7 @@
                 Console.WriteLine(words[i]);
             }
 
-            Console.WriteLine("Prem qualsevol tecla per sortir...");
+            Console.WriteLine(TxtPressToExit);
             Console.ReadKey();
         }
     }
