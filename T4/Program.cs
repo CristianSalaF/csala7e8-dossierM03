@@ -1,4 +1,4 @@
-﻿namespace T3
+﻿namespace T4
 {
     internal class Program
     {
@@ -51,6 +51,9 @@
                             break;
                         case 3:
                             Ex3.Exercise();
+                            break;
+                        case 4:
+                            Ex4.Exercise();
                             break;
                         case 0:
                             exit = true;
