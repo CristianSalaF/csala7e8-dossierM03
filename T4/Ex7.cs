@@ -24,13 +24,13 @@ namespace T4
                 new Estudiant { Id = 3, Nom = "Anna", Cognoms = "López", Edat = 21, NotaMitjana = 7.5 }
             };
 
-            string json = JsonConvert.SerializeObject(estudiants, Formatting.Indented);
-
             // CSala7e8-DossierRecuperació\T4\bin\Debug\net9.0\files
             if (!Directory.Exists("files"))
             {
                 Directory.CreateDirectory("files");
             }
+
+            string json = JsonConvert.SerializeObject(estudiants, Formatting.Indented);
             File.WriteAllText(Path.Combine("files", FileName), json);
             Console.WriteLine($"Llista d'estudiants guardada a {Path.Combine("files", FileName)}");
 
