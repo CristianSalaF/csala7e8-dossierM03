@@ -12,6 +12,9 @@ namespace T3
     {
         // I've put them in the same file due to it being a short exercise, and many others to add yet.
         // Otherwise I'd just make a different file for each class.
+
+        const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
+
         internal static void Exercise()
         {
             Pair<DateTime, string> dateStringPair = new Pair<DateTime, string>(DateTime.Now, "Avui és un bon dia");
@@ -23,6 +26,9 @@ namespace T3
 
             var (number, list) = intListPair.GetValues();
             Console.WriteLine($"Número: {number}, Llista: [{string.Join(", ", list)}]");
+
+            Console.WriteLine(TxtPressToExit);
+            Console.ReadKey();
         }
     }
 
