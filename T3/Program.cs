@@ -49,6 +49,9 @@
                         case 2:
                             Ex2.Exercise();
                             break;
+                        case 3:
+                            Ex3.Exercise();
+                            break;
                         case 0:
                             exit = true;
                             break;
