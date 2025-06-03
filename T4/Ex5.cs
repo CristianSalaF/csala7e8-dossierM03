@@ -11,6 +11,7 @@ namespace T4
     {
         internal static void Exercise()
         {
+            const string TxtErrorDivZero = "Divisió per zero no és vàlida.";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 
             MathOperation suma = (a, b) => a + b;
@@ -34,7 +35,7 @@ namespace T4
             }
             else
             {
-                Console.WriteLine("Divisió per zero no és vàlida.");
+                Console.WriteLine(TxtErrorDivZero);
             }
 
             Console.WriteLine(TxtPressToExit);
