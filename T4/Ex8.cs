@@ -11,6 +11,7 @@ namespace T4
         public static void Exercise()
         {
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
+
             List<Persona> persones = new List<Persona>
             {
                 new Persona { Nom = "Joan", Edat = 30, Ciutat = "Barcelona" },
