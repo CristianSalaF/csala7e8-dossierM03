@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace T4
 {
-    class Ex1
+    public class Ex1
     {
         // I've put them in the same file due to it being a short exercise, and many others to add yet.
         // Otherwise I'd just make a different file for each class.
 
         const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 
-        internal static void Exercise()
+        public static void Exercise()
         {
             Pair<DateTime, string> dateStringPair = new Pair<DateTime, string>(DateTime.Now, "Avui és un bon dia");
             Pair<int, List<string>> intListPair =
@@ -32,7 +32,7 @@ namespace T4
         }
     }
 
-    class Pair<T1, T2>
+    public class Pair<T1, T2>
     {
         public T1 First { get; set; }
         public T2 Second { get; set; }

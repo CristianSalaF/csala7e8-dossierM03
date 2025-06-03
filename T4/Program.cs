@@ -58,6 +58,9 @@
                         case 5:
                             Ex5.Exercise();
                             break;
+                        case 6:
+                            Ex6.Exercise();
+                            break;
                         case 0:
                             exit = true;
                             break;

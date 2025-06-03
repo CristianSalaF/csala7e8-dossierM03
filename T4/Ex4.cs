@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace T4
 {
-    class Ex4
+    public class Ex4
     {
-        internal static void Exercise()
+        public static void Exercise()
         {
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
 

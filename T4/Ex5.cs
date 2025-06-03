@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace T4
 {
-    class Ex5
+    public class Ex5
     {
-        internal static void Exercise()
+        public static void Exercise()
         {
             const string TxtErrorDivZero = "Divisió per zero no és vàlida.";
             const string TxtPressToExit = "Prem qualsevol tecla per sortir...";
