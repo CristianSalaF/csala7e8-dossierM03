@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+
+<h1>Tasques</h1>
+
+<form method="post">
+	<div>
+		<label asp-for="NewTask.Title">Títol</label>
+		<input asp-for="NewTask.Title" />
+		<span asp-validation-for="NewTask.Title"></span>
+	</div>
+    
+	<div>
+		<label asp-for="NewTask.Description">Descripció</label>
+		<input asp-for="NewTask.Description" />
+	</div>
+    
+	<div>
+		<label asp-for="NewTask.DueDate">Data Límit</label>
+		<input asp-for="NewTask.DueDate" type="date" />
+		<span asp-validation-for="NewTask.DueDate"></span>
+	</div>
+    
+	<button type="submit">Afegir Tasca</button>
+</form>
+
+<h2>Llista de Tasques</h2>
+@foreach (var task in Model.Tasks)
+{
+	<div>
+		<h3>@task.Title</h3>
+		<p>@task.Description</p>
+		<p>@task.DueDate.ToString("dd/MM/yyyy")</p>
+		<p>@(task.IsCompleted ? "Completada" : "Pendent")</p>
+        
+		<form method="post" asp-page-handler="ToggleCompleted">
+			<input type="hidden" name="taskId" value="@task.Id" />
+			<button type="submit">
+				@(task.IsCompleted ? "Marcar com a pendent" : "Marcar com a completada")
+			</button>
+		</form>
+	</div>
+}
+
+<a asp-page="/Statistics">Estadístiques</a>
