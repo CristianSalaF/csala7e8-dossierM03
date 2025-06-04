@@ -1,0 +1,72 @@
+﻿@page
+@model T4Ex24.Pages.BooksModel
+@{
+    ViewData["Title"] = "Cerca de Llibres";
+}
+
+<div class="container">
+    <h2 class="mb-4">Cerca de Llibres</h2>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="mb-3">
+                            <label asp-for="SearchTerm" class="form-label">Cerca per títol</label>
+                            <input asp-for="SearchTerm" class="form-control" placeholder="Introdueix el títol del llibre..." />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mb-3">
+                            <label class="form-label">&nbsp;</label>
+                            <button type="submit" class="btn btn-primary d-block w-100">Cercar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h5>Resultats de la cerca</h5>
+            <span class="badge bg-secondary">@Model.FilteredBooks.Count llibres trobats</span>
+        </div>
+        <div class="card-body">
+            @if (!string.IsNullOrWhiteSpace(Model.SearchTerm))
+            {
+                <p class="text-muted mb-3">Cercant: "<strong>@Model.SearchTerm</strong>"</p>
+            }
+
+            @if (Model.FilteredBooks.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Títol</th>
+                                <th>Autor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var book in Model.FilteredBooks)
+                            {
+                                <tr>
+                                    <td>@book.Title</td>
+                                    <td>@book.Author</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-4">
+                    <p class="text-muted mb-0">No s'han trobat llibres amb aquest títol.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
