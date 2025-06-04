@@ -97,6 +97,9 @@
                         case 19:
                             Ex19.Exercise();
                             break;
+                        case 20:
+                            Ex20.Exercise();
+                            break;
                         case 0:
                             exit = true;
                             break;
