@@ -15,7 +15,6 @@
                                    "7. Ex7\n" +
                                    "8. Ex8\n" +
                                    "9. Ex9\n" +
-                                   "10. Ex10\n" +
                                    "11. Ex11\n" +
                                    "12. Ex12\n" + 
                                    "13. Ex13\n" +
@@ -41,6 +40,7 @@
                 string input = Console.ReadLine();
                 if (int.TryParse(input, out int option))
                 {
+                    Console.Clear();
                     switch (option)
                     {
                         case 1:
@@ -69,6 +69,9 @@
                             break;
                         case 9:
                             Ex9.Exercise();
+                            break;
+                        case 11:
+                            Ex11.Exercise();
                             break;
                         case 0:
                             exit = true;
