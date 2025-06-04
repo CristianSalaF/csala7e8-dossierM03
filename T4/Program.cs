@@ -25,10 +25,6 @@
                                    "18. Ex18\n" +
                                    "19. Ex19\n" +
                                    "20. Ex20\n" +
-                                   "21. Ex21\n" +
-                                   "22. Ex22\n" +
-                                   "23. Ex23\n" +
-                                   "24. Ex24\n" +
                                    "0. Sortir del programa";
             const string TxtInvalidOption = "Opció no vàlida. Si us plau, selecciona una opció vàlida.";
 
